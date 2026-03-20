@@ -1,201 +1,270 @@
-# RakshaPay
-**AI-Powered Parametric Income Protection for Food Delivery Partners**
+# RakshaPay  
+AI-Powered Parametric Income Protection for Food Delivery Partners  
 
 Guidewire DEVTrails 2026 | University Hackathon  
 
 ---
 
-##  Overview  
-RakshaPay is an AI-driven **parametric insurance platform** designed for food delivery gig workers (e.g., Zomato, Swiggy partners) who lack financial safety nets.
+## Overview  
+RakshaPay is an AI-driven parametric insurance platform designed to protect the income of food delivery gig workers such as Zomato and Swiggy partners.  
 
-Unlike traditional insurance,RakshaPay provides **instant, automatic payouts** based on real-world triggers like weather disruptions, platform outages, or civic restrictions — **no claims process required**.
-
-> Built for the gig workers who keep our cities fed.
+These workers rely entirely on daily orders, and any disruption like bad weather, platform outages, or civic restrictions directly impacts their earnings. RakshaPay solves this by providing automatic payouts based on real-world triggers, without requiring manual claims. :contentReference[oaicite:0]{index=0}  
 
 ---
 
-##  Problem Statement  
-Food delivery workers depend entirely on daily orders for income. External disruptions like heavy rain, heatwaves, or app outages can instantly reduce their earnings to zero.
+## Problem Statement  
 
-- No financial protection  
-- No income stability  
-- No fast claim-based insurance solutions  
+Food delivery workers operate without a financial safety net. Their income is completely dependent on successful deliveries.  
 
----
+External factors such as:  
+- Heavy rain, cyclones, and flooding  
+- Extreme heat conditions  
+- Pollution alerts  
+- Curfews or area restrictions  
+- Platform-side delivery suspensions  
 
-##  Solution  
-RakshaPay introduces **parametric income insurance**:
-
-- Trigger-based payouts (no claim filing)
-- Instant UPI credit (within ~2 hours)
-- AI-powered dynamic pricing
-- Fraud-resistant verification system
+can instantly reduce their income to zero. Currently, the entire financial loss is borne by the worker. :contentReference[oaicite:1]{index=1}  
 
 ---
 
-##  How It Works  
+## Solution  
 
-###  Onboarding (Under 3 Minutes)
-1. Mobile OTP login  
-2. Link delivery partner ID (Zomato/Swiggy)  
-3. Aadhaar eKYC via DigiLocker  
-4. Register UPI  
-5. Select plan → policy activated instantly  
+RakshaPay introduces a parametric income insurance model where payouts are triggered automatically when predefined external conditions are met.  
 
----
-
-### Example Use Case (Heavy Rain)
-- IMD issues Red Alert  
-- Worker location verified via GPS  
-- Orders stop → system detects disruption  
-- ₹350 payout credited automatically  
+Key features:  
+- No claim filing required  
+- Instant UPI payouts  
+- AI-based dynamic premium calculation  
+- Multi-layer fraud detection system  
 
 ---
 
-##  Parametric Triggers  
+## How It Works  
 
-| Category | Event | Threshold | Income Loss |
-|----------|------|----------|------------|
-| Environmental | Heavy Rain/Flood | >64.5mm or IMD Alert | 50–80% |
-| Environmental | Heatwave | >45°C | 40–60% |
-| Environmental | Cyclone | Within 200 km | 100% + 1.5× |
-| Platform | App Outage | >30 min | 50–70% |
-| Platform | Zone Suspension | Confirmed | 100% |
-| Civic | Curfew/Bandh | Verified | 100% |
-| Civic | Power Outage | >2 hrs | 50–70% |
+### Onboarding  
+- Mobile number verification via OTP  
+- Link delivery partner ID  
+- Aadhaar eKYC via DigiLocker  
+- UPI registration  
+- Weekly plan selection  
 
----
-
-##  Pricing Model  
-
-###  AI-Based Dynamic Premium  
-
-    Weekly Premium = ₹40 × Risk Score × Earnings Factor
-
-- Adjusted every Sunday using:
-  - Weather forecasts  
-  - Seasonal patterns  
-  - Zone risk  
-
-### Example  
-- ₹800/day worker → ₹40/week  
-- Rain forecast → ₹55/week  
+The policy becomes active instantly after onboarding. :contentReference[oaicite:2]{index=2}  
 
 ---
 
-##  Coverage Plans  
+### Workflow  
 
-| Plan | Multiplier | Max Payout | Ideal For |
-|------|-----------|-----------|----------|
-| Flex | 0.8× | ₹800/week | Part-time |
-| Standard | 1.0× | ₹1500/week | Full-time |
-| Pro | 1.2× | ₹2500/week | High earners |
-
----
-
-###  Payout Formula  
-
-    Payout = Avg Daily Income × Disruption % × Coverage Multiplier
+1. Worker subscribes to a weekly plan  
+2. System continuously monitors external triggers  
+3. Trigger is detected and validated  
+4. AI verifies worker activity and location  
+5. Payout is credited automatically  
 
 ---
 
-##  AI & Fraud Detection  
+## Parametric Triggers  
 
-###  Risk Scoring Engine  
+### Environmental Triggers  
+- Heavy Rain / Flood  
+- Extreme Heat  
+- Severe Air Pollution (AQI > 400)  
+- Cyclone / Storm  
+- Fog / Thunderstorm alerts  
+
+### Platform Triggers  
+- App outage  
+- Delivery zone suspension  
+- Mass merchant closure  
+
+### Traffic Triggers  
+- Road blockage  
+- Severe congestion  
+- Waterlogging  
+
+### Civic Triggers  
+- Curfew or bandh  
+- Processions or rallies  
+- Area-wide power outage  
+
+All triggers are verified using external data sources and require no manual claim process. :contentReference[oaicite:3]{index=3}  
+
+---
+
+## Pricing Model  
+
+RakshaPay uses a weekly premium system aligned with gig workers’ earning cycles.  
+
+### Formula  
+Weekly Premium = Base Price × Risk Score × Earnings Factor  
+
+- Base Price: ₹40  
+- Risk Score: Based on location, forecast, and historical disruptions  
+- Earnings Factor: Based on worker’s daily income  
+
+Premiums are recalculated every week using AI models. :contentReference[oaicite:4]{index=4}  
+
+---
+
+## Coverage Plans  
+
+| Plan     | Multiplier | Max Weekly Payout | Best For              |
+|----------|-----------|------------------|----------------------|
+| Flex     | 0.8×      | ₹800             | Part-time workers    |
+| Standard | 1.0×      | ₹1500            | Full-time workers    |
+| Pro      | 1.2×      | ₹2500            | High earners         |
+
+---
+
+## Payout Model  
+
+Payout = Average Daily Income × Disruption Percentage × Coverage Multiplier  
+
+Example:  
+If a worker earns ₹800/day and faces a 50% disruption:  
+Payout = ₹800 × 0.5 × 1.0 = ₹400  
+
+---
+
+## AI and Machine Learning  
+
+### Risk Scoring Engine  
 - Model: XGBoost / LightGBM  
-- Inputs:
+- Inputs:  
   - Location risk  
-  - Historical disruptions  
   - Weather forecasts  
+  - Seasonal trends  
+  - Worker activity patterns  
 
 ---
 
-###  Fraud Prevention  
-Uses **multi-signal validation (5 layers):**
-- GPS  
-- Cell tower data  
+### Fraud Detection  
+
+Multi-layer verification using:  
+- GPS data  
+- Cell tower triangulation  
 - IP geolocation  
-- Motion sensors  
-- Platform activity  
+- Motion sensor data  
+- Platform activity logs  
 
-#### Fraud Score Actions:
-| Score | Action |
-|------|--------|
-| 0–30 | Instant approval |
-| 31–60 | 4-hour delay |
-| 61–80 | GPS recheck |
-| 81–100 | Manual review |
+Fraud scoring determines whether a claim is:  
+- Auto-approved  
+- Delayed for verification  
+- Manually reviewed  
 
 ---
 
-###  Anti-Fraud Intelligence  
-- Detects claim clusters using DBSCAN  
-- Flags syndicates (>20 claims in 15 mins)  
+### Advanced Fraud Protection  
+
+- Claim burst detection  
 - Device fingerprint tracking  
+- Syndicate detection using clustering (DBSCAN)  
+- Historical behavior analysis  
 
 ---
 
-##  Tech Stack  
+## Platform Choice  
+
+RakshaPay is built as a mobile-first Progressive Web App (PWA):  
+
+- Works on low-end devices  
+- Supports offline usage  
+- Lightweight installation  
+- Push notifications enabled  
+
+---
+
+## Tech Stack  
 
 ### Frontend  
 - React (Vite)  
 - Tailwind CSS  
-- PWA with offline support  
+- PWA with Workbox  
 
-###  Backend  
+### Backend  
 - Node.js + Express  
 - PostgreSQL  
-- Redis + Bull Queue  
+- Redis  
+- Bull Queue  
 
-###  AI/ML  
+### AI/ML  
 - Python FastAPI  
 - XGBoost / scikit-learn  
+- Pandas  
 
-###  APIs  
+### APIs  
 - OpenWeatherMap  
 - IMD  
+- CPCB / OpenAQ  
 - Google Maps  
 - Razorpay  
 - DigiLocker  
 
-###  Admin Dashboard  
-- React + Recharts  
-- Real-time WebSockets  
-
-###  Deployment  
+### Deployment  
 - Docker  
 - Render / Railway  
-- GitHub Actions CI/CD  
+- GitHub Actions  
 
 ---
 
-##  Out of Scope  
-RakshaPay focuses only on **income protection**, not expenses:
+## Analytics Dashboard  
 
--  Health insurance  
--  Vehicle repair  
--  Accident coverage  
--  Theft or fuel costs  
+### Worker View  
+- Weekly protected income  
+- Active coverage status  
+- Claim history  
+- Risk forecast  
+
+### Admin View  
+- Live trigger monitoring  
+- Claims tracking  
+- Fraud detection insights  
+- Loss ratio analytics  
+- Risk heatmaps  
+
+---
+
+## Out of Scope  
+
+RakshaPay only covers income loss. The following are excluded:  
+
+- Health insurance  
+- Accident coverage  
+- Vehicle repair  
+- Theft  
+- Fuel expenses  
 
 ---
 
 ## Impact  
 
-- Provides **financial stability** to gig workers  
-- Reduces income volatility  
-- Encourages safe work behavior during hazards  
-- Supports inclusive insurance innovation  
+- Provides financial stability to gig workers  
+- Reduces income uncertainty  
+- Encourages safer working conditions  
+- Enables scalable insurance for gig economy  
 
 ---
 
-##  Future Scope  
+## Development Plan  
 
-- Integration with more gig platforms  
-- Personalized risk models  
-- Expansion to other gig sectors (ride-sharing, logistics)  
-- Partnerships with insurers & government bodies  
+### Phase 1  
+- Problem research  
+- System design  
+- Tech stack setup  
+
+### Phase 2  
+- Onboarding system  
+- Policy creation  
+- Trigger automation  
+- Basic fraud detection  
+
+### Phase 3  
+- Advanced fraud detection  
+- Instant payouts  
+- Dashboards  
+- Optimization  
 
 ---
 
-##  Vision  
-To build a **frictionless, intelligent safety net** for India’s gig economy using AI and real-time data.
+## Vision  
+
+To build a scalable, AI-powered financial safety net for gig workers, ensuring income protection during real-world disruptions.
